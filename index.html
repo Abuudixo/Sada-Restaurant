@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/src/index.css" rel="stylesheet">
+    <title>sada-restaurant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+     <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Open+Sans:wght@400;500;600&display=swap');
+      
+      .brand-clip {
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+      }
+    </style>
+
+     <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Montserrat', 'sans-serif'],
+              body: ['Open Sans', 'sans-serif'],
+            },
+            colors: {
+              brand: {
+                blue: '#0057B8', // The main logo blue
+                darkBlue: '#003d82', // Darker shade for hover/contrast
+                yellow: '#FFC20E', // The smile yellow
+                light: '#F4F7FB', // Very light blue-gray for backgrounds
+                gray: '#333333', // Standard text
+              }
+            },
+            boxShadow: {
+              'blue': '0 4px 14px 0 rgba(0, 87, 184, 0.39)',
+            }
+          },
+        },
+      }
+    </script>
+
+     <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Open+Sans:wght@400;500;600&display=swap');
+      
+      .brand-clip {
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+      }
+    </style>
+
+  </head>
+  <body class="bg-white text-brand-gray font-body antialiased selection:bg-brand-yellow selection:text-brand-blue">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
