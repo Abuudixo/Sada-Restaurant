@@ -28,9 +28,9 @@ const Contact = () => {
                   <div>
                     <h3 className="font-bold text-lg mb-1">Location</h3>
                     <p className="text-blue-100">
-                      123 Culinary Avenue
+                      Hayat Market Road
                       <br />
-                      Gourmet District, NY 10001
+                      Taleex District
                     </p>
                   </div>
                 </div>
@@ -40,9 +40,9 @@ const Contact = () => {
                   <div>
                     <h3 className="font-bold text-lg mb-1">Contact</h3>
                     <p className="text-blue-100">
-                      +1 (555) 123-4567
+                      +252-61xxxxxxx
                       <br />
-                      reservations@sada.com
+                      sada@gmail.com
                     </p>
                   </div>
                 </div>
@@ -52,7 +52,7 @@ const Contact = () => {
                   <div>
                     <h3 className="font-bold text-lg mb-1">Hours</h3>
                     <p className="text-blue-100">
-                      Daily: 11:00 AM - 11:00 PM
+                      Daily: 8:00 AM - 11:00 PM
                     </p>
                   </div>
                 </div>
